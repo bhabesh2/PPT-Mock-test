@@ -1,5 +1,5 @@
 function myFunction() {
-    var x = document.getElementById("myTopnav");
+    let x = document.getElementById("myTopnav");
     if (x.classList.contains("responsive")) {
         x.classList.remove("responsive");
     } else {
@@ -7,7 +7,7 @@ function myFunction() {
     }
 }
 
-var icon = document.querySelector(".icon");
+let icon = document.querySelector(".icon");
 
 if (icon) {
     icon.addEventListener("click", myFunction);
