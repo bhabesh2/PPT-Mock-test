@@ -1,0 +1,16 @@
+
+.card{
+	width: 300px;
+	height: 300px;
+	border: 1px solid black;
+	position: absolute;	
+}
+
+.box1{
+	background-color: red;
+}
+
+.box2{
+	display: none;
+	background-color: yellow;
+}
