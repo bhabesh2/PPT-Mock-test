@@ -45,10 +45,3 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
-
-
-@media screen and (max-width: 600px) {
-  .main-box{
-    width: 90%;
-  }
-}
